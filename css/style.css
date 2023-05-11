@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF5959;
+    --primary: #c1272d;
     --secondary: #8D9297;
     --light: #F8F9FA;
-    --dark: #182333;
+    --dark: #000000;
 }
 
 .back-to-top {
@@ -128,6 +128,12 @@
     }
 }
 
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
 
 /*** Header ***/
 .carousel-caption {
